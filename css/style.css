@@ -2,10 +2,8 @@
     font-family: 'Anaheim', sans-serif;
 }
 
-h1 {
-    text-decoration: underline;
-    color: darkcyan;
-    text-align: center;
+li>a {
+    text-decoration: none;
 }
 
 body {
@@ -24,15 +22,14 @@ body {
     border-radius: 5px;
 }
 
-#universal {
-    color: lightgoldenrodyellow;
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
 }
 
-h2.selector,
-h2#universal {
-    background-color: darkcyan;
-    padding: 1%;
-    border-radius: 5px;
+#universal {
+    color: lightgoldenrodyellow;
 }
 
 span {
@@ -41,13 +38,15 @@ span {
     color: white;
 }
 
-li>a {
-    text-decoration: none;
-}
-
 h3 {
     background-color: rgba(0, 139, 139, 0.529);
     padding: 0.5px;
+    border-radius: 5px;
+}
+
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
     border-radius: 5px;
 }
 
@@ -60,16 +59,26 @@ img {
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+
 .fondo{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(214, 214, 214);
 }
+
 table {
-    border-collapse: separate; /* Asegura que las celdas tengan bordes separados */
-    border-spacing: 0; /* Elimina el espacio entre las celdas */
-    border: 2px solid darkcyan; /* Borde exterior */
-    border-radius: 10px; /* Borde redondeado */
+    border-collapse: separate; 
+    border-spacing: 0; 
+    border: 1px solid darkcyan;
+    border-radius: 5px; 
     width: 100%;
 }
 th, td {
-    padding: 8px; /* Espacio dentro de las celdas */
+    padding: 8px;
+}
+
+.margen{
+    padding-left: 25px;
+}
+
+.tabla{
+    font-size: 1.9rem;
 }

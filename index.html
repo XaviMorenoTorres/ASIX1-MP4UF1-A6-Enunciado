@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+        <link rel="icon" href="resources/favicon.png">
     </head>
     <body>
         <h1>CSS Selectors</h1>
@@ -55,41 +56,41 @@
                 <h3>All CSS Simple Selectors</h3>
             </div>
         </div>
-        <table>
+        <table class="tabla">
             <tr style="text-align: left;">
-                <th>Selector</th>
+                <th class="margen">Selector</th>
                 <th>Example</th>
                 <th>Example descrption</th>
             </tr>
             <tr class="fondo">
-                <td>#id</td>
-                <td></td>
-                <td></td>
+                <td class="margen"><u>#id</u></td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
             </tr>
             <tr>
-                <td>.class</td>
-                <td></td>
-                <td></td>
+                <td class="margen"><u>.class</u></td>
+                <td>.intro</td>
+                <td>Select alls elements with class="intro"</td>
             </tr>
             <tr class="fondo">
-                <td>element.class</td>
-                <td></td>
-                <td></td>
+                <td class="margen"><u>element.class</u></td>
+                <td>p.intro</td>
+                <td>Selects only p elements with class entry</td>
             </tr>
             <tr>
+                <td class="margen"><u>*</u></td>
                 <td>*</td>
-                <td></td>
-                <td></td>
+                <td>Selects all elements</td>
             </tr>
             <tr class="fondo">
-                <td>element</td>
-                <td></td>
-                <td></td>
+                <td class="margen"><u>element</u></td>
+                <td>p</td>
+                <td>Select alls p elements</td>
             </tr>
             <tr>
-                <td>element, element,...</td>
-                <td></td>
-                <td></td>
+                <td class="margen"><u>element, element,...</u></td>
+                <td>div, p</td>
+                <td>Select all div elements and all p elements</td>
             </tr>
         </table>
     </body>
